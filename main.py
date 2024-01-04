@@ -18,4 +18,4 @@ while True:
 
     player = df_both["playerID"].iloc[0]
     print(player)
-    print(playerid_reverse_lookup([player], key_type='bbref')["name_first"] + " " + playerid_reverse_lookup([player], key_type='bbref')["name_last"])
+    print(playerid_reverse_lookup([player], key_type='bbref')["name_first"] + " " )
